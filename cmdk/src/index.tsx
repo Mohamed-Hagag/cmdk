@@ -800,7 +800,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>((props, forwardedRe
       ref={forwardedRef}
       {...etc}
       cmdk-input=""
-      autoComplete="off"
+      autoComplete="new-password"
       autoCorrect="off"
       spellCheck={false}
       aria-autocomplete="list"
